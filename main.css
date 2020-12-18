@@ -8,6 +8,10 @@ h1 {
   font-family: "Special Elite", cursive;
 }
 
+button {
+  margin: 25px 0px;
+}
+
 .btn-outline-info {
   background-color: #00c3b1;
   color: #ffff;
