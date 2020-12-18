@@ -1,0 +1,35 @@
+* {
+  background-color: #455a64;
+  color: #ffffff;
+  font-family: "Questrial", sans-serif;
+}
+
+h1 {
+  font-family: "Special Elite", cursive;
+}
+
+.btn-outline-info {
+  background-color: #00c3b1;
+  color: #ffff;
+  border-color: #00c3b1;
+  border-radius: 50px;
+  min-width: 150px;
+  font-size: 18px;
+}
+.btn-outline-info:hover {
+  background-color: #455a64;
+  border-color: #00c3b1;
+  color: #00c3b1;
+  font-weight: bold;
+}
+.btn-outline-info:not(:disabled):not(.disabled).active,
+.btn-outline-info:not(:disabled):not(.disabled):active,
+.show > .btn-outline-info.dropdown-toggle {
+  color: #fff;
+  background-color: #00c3b1ff;
+  border-color: #00c3b1ff;
+}
+
+label {
+  font-size: 20px;
+}
